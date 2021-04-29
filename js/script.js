@@ -18,7 +18,7 @@ console.log(5*2 == 10);
 
 console.log(5*2 === '10');
 
-const isChecked = true,
+const isChecked = false,
       isClose = false;
       
-  console.log(isChecked || isClose);
+  console.log(isChecked || !isClose);
